@@ -20,3 +20,4 @@ class UserInDB(User):
 
 class UserCreated(User):
     password: str
+    email: str
